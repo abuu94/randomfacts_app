@@ -9,11 +9,11 @@ from .models import Fact, Comment
 
 
 from django.views.decorators.csrf import csrf_exempt
-import together
+# import together
 import base64
 
 # Configure Together AI API key
-together.api_key = "Together AI API key"  # Replace with your actual API key
+# together.api_key = "Together AI API key"  # Replace with your actual API key
 
 def get_random_fact(request):
     # Fetch a random fact from the API    https://uselessfacts.jsph.pl/api/v2/facts/random?language=en    toa https://uselessfacts.jsph.pl/random.json?language=en
