@@ -1,5 +1,6 @@
 # randomfacts_app
 Hosting on Python Everywhere
 
-![Demo](img.PNG)
-
+<p align="center">
+  <img src="img.PNG" alt="My Random Fact App" />
+</p>
