@@ -47,7 +47,7 @@ CELERY_RESULT_BACKEND = 'redis://127.0.0.1:6379/0'
 CELERY_ACCEPT_CONTENT = ['application/json']
 CELERY_RESULT_SERIALIZER = 'json'
 CELERY_TASK_SERIALIZER = 'json'
-CELERY_TIMEZONE = 'Africa/Dar_es_salaam'  # Or your timezone    'UTC' or  'Africa/Dar_es_salaam'
+CELERY_TIMEZONE = 'UTC'  # Or your timezone    'UTC' or  'Africa/Dar_es_salaam'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
