@@ -36,9 +36,9 @@ print(User.objects.filter(is_superuser=True).values_list('username', flat=True))
 ```
 
 
-- Use the following to set new password for existing user
+- Use the following to set a new password for an existing user
   
-``
+```
 user = User.objects.get(username='abuu1')  
 user.set_password('abu123pwd')  
 user.save()
